@@ -15,6 +15,18 @@ CATLAS 백엔드 개발 시 유의해야 할 사항을 정리하는 문서입니
 
 `Windows`에서 작업하고 계신 분들 중 가상환경에 들어갈 수 없는 분들은 [링크](https://hatchling13.github.io/windows-powershell-execution-policy/)를 참조하시기 바랍니다.
 
+### 환경 세팅 방법
+```
+아래 방법은 Windows 기준입니다:
+
+git clone https://github.com/GNU-CS/catlas-backend  # GitHub에서 저장소 clone해오기
+cd catlas-backend                                   # 저장소로 들어가기
+python3 -m venv env                                 # 가상환경 만들기
+./env/Scripts/activate                              # 가상환경 진입하기
+pip install -r requirements.txt                     # 의존성 설치하기
+git switch dev                                      # git branch 변경하기
+```
+
 ---
 
 *나머지 필요한 사항은 추후 작업됩니다.*
