@@ -138,3 +138,32 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+.idea/vcs.xml
+.idea/workspace.xml
+catlas/catlas/settings.py
+catlas/catlas/urls.py
+catlas/Member/serializers.py
+catlas/Member/views.py
+.idea/workspace.xml
+catlas/catlas/settings.py
+catlas/catlas/urls.py
+catlas/Member/serializers.py
+catlas/Member/views.py
+.idea/workspace.xml
+catlas/catlas/settings.py
+catlas/catlas/urls.py
+catlas/Member/serializers.py
+catlas/Member/views.py
+.idea/workspace.xml
+catlas/catlas/settings.py
+catlas/catlas/urls.py
+catlas/Member/serializers.py
+catlas/Member/views.py
+*.xml
+*.py
+.idea/workspace.xml
+catlas/catlas/settings.py
+catlas/catlas/urls.py
+catlas/Member/serializers.py
+catlas/Member/views.py
+catlas/Member/serializers.py
