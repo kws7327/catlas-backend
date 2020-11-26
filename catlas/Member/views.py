@@ -1,8 +1,21 @@
-from django.shortcuts import render
-from rest_framework import viewsets
-from .serializers import ModelSerializer
-from .models import Member
+from django.shortcuts import render, redirect
+from rest_framework.renderers import JSONRenderer
+from .serializers import MemberSerializer
+from django.http import HttpResponse
 
-class MemberViewSet(viewsets.MemberViewSet):
-    #queryset = Member.objects.all()
-    #serializer_class = MemberSerializer
+
+def index(request):
+    return render(request,'index.html', {})
+
+def signin(request):
+    return render(request, 'login.html', {})
+
+
+
+
+    #serializer = MemberSerializer()
+    #serializer = JSONRenderer().render(serializer.data)
+    #return HttpResponse(repr(serializer))
+
+
+
