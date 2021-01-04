@@ -38,9 +38,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'Member'
-
-    #'rest_framework'
+    'Member',
+    'rest_framework',
+    #'catlas.apps.SnippetsConfig'
+    
 ]
 
 MIDDLEWARE = [
